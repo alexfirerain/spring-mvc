@@ -1,0 +1,74 @@
+GET http://localhost:8080/api/posts
+
+<> 2021-11-13T221748.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-13T221632.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-13T221541.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-13T221531.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+###
+
+GET http://localhost:9999/api/posts
+
+<> 2021-11-13T221127.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 1,
+  "content": "New 1st Post"
+}
+
+###
+
+GET http://localhost:8080/api/posts
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+###
+
+GET http://localhost:8080/api/posts
+
+###
+
