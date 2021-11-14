@@ -53,6 +53,7 @@ public class PostController {
 
     /**
      * Распоряжается контроллеру удалить пост с указанным номером.
+     * @param id    номер поста, который удалить.
      */
     @DeleteMapping("/{id}")
     public void removeById(@PathVariable long id) {

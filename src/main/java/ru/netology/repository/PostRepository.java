@@ -11,13 +11,13 @@ public interface PostRepository {
     /**
      * Сохраняет посты в виде списка в файл STORAGE.
      */
-    public void store();
+    void store();
 
     /**
      * Возвращает все существующие посты в виде списка.
      * @return  список всех существующих постов.
      */
-    public List<Post> all();
+    List<Post> all();
 
 
     /**
@@ -25,7 +25,7 @@ public interface PostRepository {
      * @param id запрашиваемый номер поста.
      * @return  опционально пост с указанным номером.
      */
-    public Optional<Post> getById(long id);
+    Optional<Post> getById(long id);
 
     /**
      * Сохраняет полученный пост в карту: при этом если пост с таким же номером
@@ -34,7 +34,7 @@ public interface PostRepository {
      * @param post  сохраняемый пост.
      * @return  пост в том виде, в котором он был сохранён
      */
-    public Post save(Post post);
+    Post save(Post post);
 
     /**
      * Удаляет пост с указанным номером или, если такого нет,
@@ -42,6 +42,6 @@ public interface PostRepository {
      * @param id номер поста удалить.
      * @throws NotFoundException если поста с указанным номером не существует
      */
-    public void removeById(long id) throws NotFoundException;
+    void removeById(long id) throws NotFoundException;
 
 }

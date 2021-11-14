@@ -1,3 +1,177 @@
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-14T214001.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T213953.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T213809.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T212200.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 1,
+  "content": "New 1st Post"
+}
+
+<> 2021-11-14T210322.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-14T210125.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T210026.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 1,
+  "content": "New 1st Post"
+}
+
+<> 2021-11-14T205616.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-14T205242.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T205232.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T205009.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T200736.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-14T200010.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-14T195428.404.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-14T195334.404.html
+
+###
+
+DELETE http://localhost:8080/api/posts/2
+
+<> 2021-11-14T195150.405.html
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
+<> 2021-11-14T195132.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T195114.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T194926.404.html
+
+###
+
+GET http://localhost:8080/api/posts
+
+<> 2021-11-14T194642.404.html
+
+###
+
 GET http://localhost:8080/api/posts
 
 <> 2021-11-13T221748.404.html
