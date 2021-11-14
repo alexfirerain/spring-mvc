@@ -1,6 +1,5 @@
 package ru.netology.controller;
 
-import com.google.gson.Gson;
 import org.springframework.web.bind.annotation.*;
 import ru.netology.model.Post;
 import ru.netology.service.PostService;
@@ -15,9 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/posts")
 public class PostController {
-//    public static final String APPLICATION_JSON = "application/json";
-//    public static final String TEXT_PLAIN = "text/plain";
-//    private static final Gson converter = new Gson();
 
     private final PostService service;
 
